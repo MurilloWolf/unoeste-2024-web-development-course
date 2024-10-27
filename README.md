@@ -8,7 +8,7 @@
 [Plugin LiveServer ](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)  
 [Plugin Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)  
 [Plugin Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)  
-[Plugin Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy. markdown-preview-enhanced)
+[Plugin Markdown Preview Enhanced](https://marketplace.visualstudio.com/items?itemName=shd101wyy.markdown-preview-enhanced)
 
 ## Sumário
 
