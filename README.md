@@ -25,7 +25,7 @@
 Configuração do prettier
 Abrir o arquivo settings.json do vscode e adicionar as seguintes configurações: Windows: `Ctrl + Shift + P` e digitar `settings.json` ou `Ctrl + ,`
 
-````json
+```json
 {
   "editor.formatOnSave": true,
   "editor.defaultFormatter": "esbenp.prettier-vscode",
@@ -35,16 +35,7 @@ Abrir o arquivo settings.json do vscode e adicionar as seguintes configurações
   "prettier.semi": false,
   "prettier.singleQuote": true
 }
-
-```json
-{
-  "editor.formatOnSave": true,
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "editor.codeActionsOnSave": {
-    "source.fixAll.eslint": true
-  },
-
-````
+```
 
 ## HTML e DOM
 
