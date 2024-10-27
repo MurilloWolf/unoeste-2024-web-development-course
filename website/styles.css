@@ -1,0 +1,139 @@
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header { 
+    background-color: #007bff;
+    color: white;
+    height: 3rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a{ 
+  text-decoration: none;
+  color: white;
+}
+
+ul{ 
+  width: 100%;
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+
+h1 { 
+  font-size: 2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color: white;
+}
+
+.text{ 
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  color:white;
+}
+
+.hero{ 
+  display: flex; 
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-blend-mode: darken(0.5);
+  background: no-repeat center/cover ;
+  background-image: url('https://wallpapercave.com/wp/wp12817983.jpg');
+}
+
+
+button { 
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+button:hover { 
+  background-color: #0056b3;
+}
+
+input { 
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  border: 1px solid black;
+  border-radius: 5px;
+}
+input:focus { 
+  outline: 1px solid #007bff;
+}
+
+form { 
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+form input { 
+  width: 100%;
+}
+
+.popup { 
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.popup-content { 
+  text-align: center;
+  min-width: 350px;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 2rem;
+  border-radius: 5px;
+  width: 50%;
+}
+.close{
+  position: relative;
+  top: 0;
+  right: 0;
+  padding-top: 0rem;
+  padding-bottom: 1rem;
+  text-align: right;
+}
+
+.close-button { 
+  background-color: #eee;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
